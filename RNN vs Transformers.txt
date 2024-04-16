@@ -1,0 +1,9 @@
+Difference b/w RNN and Transformers
+
+1) Consider the task of machine translation, where the goal is to translate a sentence from one language to another.
+In traditional RNN-based models, each word in the input sentence is processed sequentially, with the hidden state of the RNN capturing information about the sequence processed so far.
+
+2) In contrast, in a Transformer model, self-attention mechanisms allow the model to consider all words in the input sentence simultaneously, capturing dependencies between distant words more effectively.
+This allows Transformer models to achieve better translation performance, especially for long sentences where RNNs may struggle to capture long-range dependencies.
+
+In summary, Transformers replaced recurrent layers with self-attention mechanisms, allowing models to process sequences more efficiently and effectively by capturing long-range dependencies through simultaneous consideration of all words in the sequence. This has led to significant improvements in various NLP tasks, including machine translation, text generation, and sentiment analysis.
